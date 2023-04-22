@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
 
 const Name = ( {name, tagline}) => {
     return ( <div className=" mt-20 mb-10">

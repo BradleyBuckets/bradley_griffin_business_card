@@ -1,7 +1,6 @@
-
 /* eslint-disable react/prop-types */
-import React from 'react';
-import { BsFacebook, BsLinkedin, BsInstagram } from 'react-icons/bs'
+import { BsFacebook, BsLinkedin } from 'react-icons/bs'
+import { CgWebsite } from 'react-icons/cg'
 
 
 
@@ -17,8 +16,8 @@ const Social = ( {links} ) => {
             <h3>Facebook</h3>
         </a>
         <a href={links[2]} target='_blank' className='flex justify-between items-center text-neutral-300' rel="noreferrer">
-            <BsInstagram className='text-2xl mr-4'/>
-            <h3>Intagram</h3>
+            <CgWebsite className='text-2xl mr-4'/>
+            <h3>Projects</h3>
         </a>
     </div> );
 
