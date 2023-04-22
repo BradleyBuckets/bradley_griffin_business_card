@@ -12,7 +12,7 @@ const Container = () => {
 
     let myBio = "Griffin is a driven 22-year-old sports enthusiast who loves basketball, pickleball, and ultimate frisbee. When he's not on the court or field, he enjoys exploring his passions for web development, real estate, business, and law enforcement. As a versatile team player, he thrives in collaborative environments and is always looking for ways to innovate and improve. With a strong work ethic and an eagerness to learn, Griffin is ready to take on new challenges and make a valuable contribution to any organization."
 
-    return ( <div className="mx-10 my-6 w-2/5">
+    return ( <div className="ml-4 mr-8 lg:mx-10 my-6 w-11/12 lg:w-2/5">
         <Initials letters={'BG'} />
         <Name name={'Bradley Griffin'} tagline={'Low maintenance, high yield'}/>
         <Titles titles={titles}/>

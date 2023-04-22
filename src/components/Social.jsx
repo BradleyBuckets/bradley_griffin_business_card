@@ -6,7 +6,7 @@ import { CgWebsite } from 'react-icons/cg'
 
 
 const Social = ( {links} ) => {
-    return ( <div className='flex w-full justify-between items-center mt-20'>
+    return ( <div className='flex flex-col gap-8 lg:gap-0 lg:flex-row w-full justify-between items-start lg:items-center my-10 lg:mt-20 lg:mb-0'>
         <a href={links[0]} target='_blank' className='flex justify-between items-center text-neutral-300' rel="noreferrer">
             <BsLinkedin className='text-2xl mr-4'/>
             <h3>LinkedIn</h3>
